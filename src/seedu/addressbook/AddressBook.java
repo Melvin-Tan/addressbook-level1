@@ -19,9 +19,11 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 /*
  * NOTE : =============================================================
@@ -483,10 +485,12 @@ public class AddressBook {
      * @return list of persons in full model with name containing some of the keywords
      */
     private static ArrayList<String[]> getPersonsWithNameContainingAnyKeyword(Collection<String> keywords) {
+        List<String> keywordsInLowercase = getStringCollectionInLowercase(keywords);
         final ArrayList<String[]> matchedPersons = new ArrayList<>();
         for (String[] person : getAllPersonsInAddressBook()) {
             final Set<String> wordsInName = new HashSet<>(splitByWhitespace(getNameFromPerson(person)));
-            if (!Collections.disjoint(wordsInName, keywords)) {
+            List<String> wordsInNameInLowercase = getStringCollectionInLowercase(wordsInName);
+            if (!Collections.disjoint(wordsInNameInLowercase, keywordsInLowercase)) {
                 matchedPersons.add(person);
             }
         }
@@ -545,6 +549,18 @@ public class AddressBook {
      */
     private static boolean isDisplayIndexValidForLastPersonListingView(int index) {
         return index >= DISPLAYED_INDEX_OFFSET && index < latestPersonListingView.size() + DISPLAYED_INDEX_OFFSET;
+    }
+    
+    /**
+     * Convert all strings from a collection to lowercase.
+     * 
+     * @param collection of string
+     * @return list of string in lowercase
+     */
+    private static List<String> getStringCollectionInLowercase(Collection<String> collection) {
+        return collection.stream()
+                .map(String::toLowerCase)
+                .collect(Collectors.toList());
     }
 
     /**
