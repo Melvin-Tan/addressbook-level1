@@ -1154,11 +1154,11 @@ public class AddressBook {
     /**
     * Removes prefix from the given fullString if prefix occurs at the start of the string.
     * @param fullString  Parameter as a string
-    * @param prefix  Parameter prefix to be removed
-    * @return  string without the prefix
+    * @param prefix      Parameter prefix to be removed
+    * @return string without the prefix
     */
     private static String removePrefix(String fullString, String prefix) {
-        return (fullString.startsWith(prefix)) ? fullString.substring(prefix.length()) : fullString;
+        return fullString.startsWith(prefix) ? fullString.substring(prefix.length()) : fullString;
     }
 
     /**
