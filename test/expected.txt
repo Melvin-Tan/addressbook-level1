@@ -171,6 +171,77 @@
 || 
 || 5 persons found!
 || ===================================================
+|| Enter command: || [Command entered:  add John Doe p/98765432 e/johnd@gmail.com]
+|| New person added: John Doe, Phone: 98765432, Email: johnd@gmail.com
+|| ===================================================
+|| Enter command: || [Command entered:  sort]
+|| 	1. Adam Brown  Phone Number: 111111  Email: adam@gmail.com
+|| 	2. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
+|| 	3. Charlie Dickson  Phone Number: 333333  Email: charlie.d@nus.edu.sg
+|| 	4. Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
+|| 	5. Esther Potato  Phone Number: 555555  Email: esther@notreal.potato
+|| 	6. John Doe  Phone Number: 98765432  Email: johnd@gmail.com
+|| 
+|| 6 persons found!
+|| ===================================================
+|| Enter command: || [Command entered:  add Catie Parry p/12345678 e/catiep@hotmail.com]
+|| New person added: Catie Parry, Phone: 12345678, Email: catiep@hotmail.com
+|| ===================================================
+|| Enter command: || [Command entered:  sort]
+|| 	1. Adam Brown  Phone Number: 111111  Email: adam@gmail.com
+|| 	2. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
+|| 	3. Catie Parry  Phone Number: 12345678  Email: catiep@hotmail.com
+|| 	4. Charlie Dickson  Phone Number: 333333  Email: charlie.d@nus.edu.sg
+|| 	5. Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
+|| 	6. Esther Potato  Phone Number: 555555  Email: esther@notreal.potato
+|| 	7. John Doe  Phone Number: 98765432  Email: johnd@gmail.com
+|| 
+|| 7 persons found!
+|| ===================================================
+|| Enter command: || [Command entered:  add Betty p/92837465 e/betty@gmail.com]
+|| New person added: Betty, Phone: 92837465, Email: betty@gmail.com
+|| ===================================================
+|| Enter command: || [Command entered:  sort]
+|| 	1. Adam Brown  Phone Number: 111111  Email: adam@gmail.com
+|| 	2. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
+|| 	3. Betty  Phone Number: 92837465  Email: betty@gmail.com
+|| 	4. Catie Parry  Phone Number: 12345678  Email: catiep@hotmail.com
+|| 	5. Charlie Dickson  Phone Number: 333333  Email: charlie.d@nus.edu.sg
+|| 	6. Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
+|| 	7. Esther Potato  Phone Number: 555555  Email: esther@notreal.potato
+|| 	8. John Doe  Phone Number: 98765432  Email: johnd@gmail.com
+|| 
+|| 8 persons found!
+|| ===================================================
+|| Enter command: || [Command entered:  add Zack Low p/99887766 e/lowz@nus.edu.sg]
+|| New person added: Zack Low, Phone: 99887766, Email: lowz@nus.edu.sg
+|| ===================================================
+|| Enter command: || [Command entered:  sort]
+|| 	1. Adam Brown  Phone Number: 111111  Email: adam@gmail.com
+|| 	2. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
+|| 	3. Betty  Phone Number: 92837465  Email: betty@gmail.com
+|| 	4. Catie Parry  Phone Number: 12345678  Email: catiep@hotmail.com
+|| 	5. Charlie Dickson  Phone Number: 333333  Email: charlie.d@nus.edu.sg
+|| 	6. Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
+|| 	7. Esther Potato  Phone Number: 555555  Email: esther@notreal.potato
+|| 	8. John Doe  Phone Number: 98765432  Email: johnd@gmail.com
+|| 	9. Zack Low  Phone Number: 99887766  Email: lowz@nus.edu.sg
+|| 
+|| 9 persons found!
+|| ===================================================
+|| Enter command: || [Command entered:  list]
+|| 	1. Adam Brown  Phone Number: 111111  Email: adam@gmail.com
+|| 	2. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
+|| 	3. Charlie Dickson  Phone Number: 333333  Email: charlie.d@nus.edu.sg
+|| 	4. Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
+|| 	5. Esther Potato  Phone Number: 555555  Email: esther@notreal.potato
+|| 	6. John Doe  Phone Number: 98765432  Email: johnd@gmail.com
+|| 	7. Catie Parry  Phone Number: 12345678  Email: catiep@hotmail.com
+|| 	8. Betty  Phone Number: 92837465  Email: betty@gmail.com
+|| 	9. Zack Low  Phone Number: 99887766  Email: lowz@nus.edu.sg
+|| 
+|| 9 persons found!
+|| ===================================================
 || Enter command: || [Command entered:  find]
 || 
 || 0 persons found!
@@ -247,8 +318,12 @@
 || 	2. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
 || 	3. Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
 || 	4. Esther Potato  Phone Number: 555555  Email: esther@notreal.potato
+|| 	5. John Doe  Phone Number: 98765432  Email: johnd@gmail.com
+|| 	6. Catie Parry  Phone Number: 12345678  Email: catiep@hotmail.com
+|| 	7. Betty  Phone Number: 92837465  Email: betty@gmail.com
+|| 	8. Zack Low  Phone Number: 99887766  Email: lowz@nus.edu.sg
 || 
-|| 4 persons found!
+|| 8 persons found!
 || ===================================================
 || Enter command: || [Command entered:  delete 4]
 || Deleted Person: Esther Potato  Phone Number: 555555  Email: esther@notreal.potato
@@ -257,8 +332,12 @@
 || 	1. Adam Brown  Phone Number: 111111  Email: adam@gmail.com
 || 	2. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
 || 	3. Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
+|| 	4. John Doe  Phone Number: 98765432  Email: johnd@gmail.com
+|| 	5. Catie Parry  Phone Number: 12345678  Email: catiep@hotmail.com
+|| 	6. Betty  Phone Number: 92837465  Email: betty@gmail.com
+|| 	7. Zack Low  Phone Number: 99887766  Email: lowz@nus.edu.sg
 || 
-|| 3 persons found!
+|| 7 persons found!
 || ===================================================
 || Enter command: || [Command entered:  delete 1]
 || Deleted Person: Adam Brown  Phone Number: 111111  Email: adam@gmail.com
@@ -266,8 +345,12 @@
 || Enter command: || [Command entered:  list]
 || 	1. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
 || 	2. Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
+|| 	3. John Doe  Phone Number: 98765432  Email: johnd@gmail.com
+|| 	4. Catie Parry  Phone Number: 12345678  Email: catiep@hotmail.com
+|| 	5. Betty  Phone Number: 92837465  Email: betty@gmail.com
+|| 	6. Zack Low  Phone Number: 99887766  Email: lowz@nus.edu.sg
 || 
-|| 2 persons found!
+|| 6 persons found!
 || ===================================================
 || Enter command: || [Command entered:  clear]
 || Address book has been cleared!
